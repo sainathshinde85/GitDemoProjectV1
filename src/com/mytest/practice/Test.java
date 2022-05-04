@@ -6,11 +6,18 @@ import java.util.List;
 
 public class Test {
 
+	/**
+	 * 
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		findEmployeeSalaryMorethan();
 	
 	}
-	
+	/**
+	 * 
+	 * @return
+	 */
 	private static ArrayList<Employee> getEmployeeList(){
 		 List<Employee> empList = new ArrayList<Employee>();
 	        empList.add(new Employee("Nataraja G", "Accounts", 8000));
